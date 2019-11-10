@@ -1,0 +1,3 @@
+x = 100 y = 60 radius = 30
+x = 100 y = 200 radius = 38
+x = 200 y = 120 radius = 36

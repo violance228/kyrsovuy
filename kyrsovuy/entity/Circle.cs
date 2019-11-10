@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace kyrsovuy.entity
 {
-    class Circle : Figure
+    public class Circle : Figure
     {
         private const double PI = 3.14d;
         private double radius;
@@ -15,8 +16,8 @@ namespace kyrsovuy.entity
 
         public Circle(double radius, Point centre)
         {
-            this.Radius = radius;
-            this.Centre = centre;
+            this.radius = radius;
+            this.centre = centre;
             this.isCrossesPolyphony = false;
         }
 
@@ -55,6 +56,11 @@ namespace kyrsovuy.entity
             hashCode = hashCode * -1521134295 + EqualityComparer<Point>.Default.GetHashCode(Centre);
             hashCode = hashCode * -1521134295 + isCrossesPolyphony.GetHashCode();
             return hashCode;
+        }
+
+        public Color getColor()
+        {
+            return Color.Red;
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using kyrsovuy.entity;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,6 +31,47 @@ namespace kyrsovuy
             {
                 return true;
             }
+        }
+
+        public static List<Circle> parseCircle(String path)
+        {
+            List<Circle> figures = new List<Circle>();
+
+            StreamReader reader = File.OpenText(path);
+            string line;
+            while ((line = reader.ReadLine()) != null)
+            {
+                string[] items = line.ToLower().Trim().Split(' ');
+                String x = null;
+                String y = null;
+                String radius = null;
+                for (int i = 0; i < items.Length; i++)
+                {
+                    if(items[i].Equals("x"))
+                    {
+                        x = items[i + 2];
+                    } else if(items[i].Equals("y"))
+                    {
+                        y = items[i + 2];
+                    } else if(items[i].Equals("radius"))
+                    {
+                        radius = items[i + 2];
+                    }
+                }
+                if(x != null && y != null && radius != null)
+                { 
+                    figures.Add(new Circle(double.Parse(radius), new Point(int.Parse(x), int.Parse(y))));
+                }
+            }
+
+            return figures;
+        }
+
+        public static Polyphony parseLine(String path)
+        {
+            Polyphony polyphony = new Polyphony();
+
+            return polyphony;
         }
     }
 }
