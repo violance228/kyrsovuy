@@ -1,0 +1,9 @@
+E:\univercity\черняк 4курс\kyrsovuy\kyrsovuy\bin\Debug\kyrsovuy.exe.config
+E:\univercity\черняк 4курс\kyrsovuy\kyrsovuy\bin\Debug\kyrsovuy.exe
+E:\univercity\черняк 4курс\kyrsovuy\kyrsovuy\bin\Debug\kyrsovuy.pdb
+E:\univercity\черняк 4курс\kyrsovuy\kyrsovuy\obj\Debug\kyrsovuy.csprojAssemblyReference.cache
+E:\univercity\черняк 4курс\kyrsovuy\kyrsovuy\obj\Debug\kyrsovuy.Properties.Resources.resources
+E:\univercity\черняк 4курс\kyrsovuy\kyrsovuy\obj\Debug\kyrsovuy.csproj.GenerateResource.cache
+E:\univercity\черняк 4курс\kyrsovuy\kyrsovuy\obj\Debug\kyrsovuy.csproj.CoreCompileInputs.cache
+E:\univercity\черняк 4курс\kyrsovuy\kyrsovuy\obj\Debug\kyrsovuy.exe
+E:\univercity\черняк 4курс\kyrsovuy\kyrsovuy\obj\Debug\kyrsovuy.pdb
