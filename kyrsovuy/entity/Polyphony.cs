@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace kyrsovuy.entity
 {
-    class Polyphony
+    public class Polyphony
     {
-        private List<Point> points;
+        private List<Line> polyphony;
 
         public Polyphony()
         {
-            this.points = new List<Point>();
+            this.polyphony = new List<Line>();
         }
 
-        public List<Point> Points { get => points; }
+        public List<Line> Polyphonys { get => polyphony; }
 
-        public void setPoint(Point point)
+        public void setPoint(Line line)
         {
-            points.Add(point);
+            polyphony.Add(line);
         }
     }
 }

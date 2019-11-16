@@ -1,0 +1,2 @@
+startX = 50 startY = 30 endX = 100 endY = 40
+startX = 400 startY = 120 endX = 200 endY = 60

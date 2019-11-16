@@ -10,11 +10,11 @@ namespace kyrsovuy.entity
     public class Circle : Figure
     {
         private const double PI = 3.14d;
-        private double radius;
+        private int radius;
         private Point centre;
         private bool isCrossesPolyphony;
 
-        public Circle(double radius, Point centre)
+        public Circle(int radius, Point centre)
         {
             this.radius = radius;
             this.centre = centre;
@@ -36,9 +36,9 @@ namespace kyrsovuy.entity
             return PI * (Radius * Radius);
         }
 
-        public double Radius { get => radius; set => radius = value; }
+        public int Radius { get => radius; set => radius = value; }
         internal Point Centre { get => centre; set => centre = value; }
-
+        public bool CrossesPolyphony { get => isCrossesPolyphony; set => isCrossesPolyphony = value; }
 
         public override bool Equals(object obj)
         {

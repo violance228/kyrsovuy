@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="entity\Circle.cs" />
     <Compile Include="entity\Figure.cs" />
+    <Compile Include="entity\Line.cs" />
     <Compile Include="entity\Polyphony.cs" />
     <Compile Include="entity\Point.cs" />
     <Compile Include="entity\Triangle.cs" />

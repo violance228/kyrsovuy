@@ -10,7 +10,7 @@ namespace kyrsovuy.service
     public class CircleService
     {
         private const String circlePath = "E:\\univercity\\черняк 4курс\\kyrsovuy\\kyrsovuy\\initCircle.txt";
-        private const String linePath = "E:\\univercity\\черняк 4курс\\kyrsovuy\\kyrsovuy\\initCircle.txt";
+
         private static CircleService singleton = null;
         private List<Circle> circles;
 
